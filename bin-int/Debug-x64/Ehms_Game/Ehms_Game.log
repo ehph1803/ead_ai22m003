@@ -1,3 +1,2 @@
-﻿  Application.cpp
-C:\Users\phili\OneDrive\Dokumente\FHTW_MAI\Semester 2\EAD\ead_ai22m003\Ehms_Game\src\Application.cpp(6,13): warning C4326: Der Rückgabetyp von "main" sollte "int" und nicht "void" sein
+﻿  Ehms_Game_App.cpp
   Ehms_Game.vcxproj -> C:\Users\phili\OneDrive\Dokumente\FHTW_MAI\Semester 2\EAD\ead_ai22m003\bin\Debug-x64\Ehms_Game\Ehms_Game.exe
