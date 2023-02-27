@@ -1,6 +1,6 @@
-#include <GE_Ehm.h>
+#include <GEE.h>
 
-class Ehms_Game : public GE_Ehm::Application {
+class Ehms_Game : public GEE::Application {
 public:
 	Ehms_Game() {
 
@@ -11,6 +11,6 @@ public:
 	}
 };
 
-GE_Ehm::Application* GE_Ehm::CreateApplication() {
+GEE::Application* GEE::CreateApplication() {
 	return new Ehms_Game();
 }
