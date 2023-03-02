@@ -27,6 +27,9 @@ Git is a version control system. Github is a cloud service that used git and its
 # Exercise 2
 
 ## Describe a logging system with your own words:
+A logging system is used to get useful information output during runtime. Logs can be output to the console or to specified log files. 
+On the console one can for example structure logs by categorizing them by giving different severities different colors. For example if an Error is color red one can concentrate on the red messages and find them easy and fast.
+
 ## What is the difference between git submodules and git subtrees?
 Git submodules are based on a specific commit. Subtrees include the history of the repository. Thereby submodules are smaller in size than subtrees.
 
