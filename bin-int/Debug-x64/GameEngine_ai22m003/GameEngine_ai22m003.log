@@ -1,6 +1,0 @@
-﻿  Log.cpp
-C:\Users\phili\OneDrive\Dokumente\FHTW_MAI\Semester 2\EAD\ead_ai22m003\GameEngine_ai22m003\src\GEE\Log.h(16,42): warning C4251: "GEE::Log::s_CoreLogger": class "std::shared_ptr<spdlog::logger>" erfordert eine DLL-Schnittstelle, die von Clients von class "GEE::Log" verwendet wird
-C:\Users\phili\OneDrive\Dokumente\FHTW_MAI\Semester 2\EAD\ead_ai22m003\GameEngine_ai22m003\vendor\spdlog\include\spdlog\details\registry.h(34): message : Siehe Deklaration von "std::shared_ptr<spdlog::logger>"
-C:\Users\phili\OneDrive\Dokumente\FHTW_MAI\Semester 2\EAD\ead_ai22m003\GameEngine_ai22m003\src\GEE\Log.h(17,42): warning C4251: "GEE::Log::s_ClientLogger": class "std::shared_ptr<spdlog::logger>" erfordert eine DLL-Schnittstelle, die von Clients von class "GEE::Log" verwendet wird
-C:\Users\phili\OneDrive\Dokumente\FHTW_MAI\Semester 2\EAD\ead_ai22m003\GameEngine_ai22m003\vendor\spdlog\include\spdlog\details\registry.h(34): message : Siehe Deklaration von "std::shared_ptr<spdlog::logger>"
-  GameEngine_ai22m003.vcxproj -> C:\Users\phili\OneDrive\Dokumente\FHTW_MAI\Semester 2\EAD\ead_ai22m003\bin\Debug-x64\GameEngine_ai22m003\GameEngine_ai22m003.dll

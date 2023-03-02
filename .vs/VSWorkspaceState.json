@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Ehms_Game",
+    "\\Ehms_Game\\src"
   ],
+  "SelectedNode": "\\Ehms_Game\\src\\Ehms_Game_App.cpp",
   "PreviewInSolutionExplorer": false
 }
