@@ -23,3 +23,24 @@ Git is a version control system. Github is a cloud service that used git and its
  - No file locking available (other developers can always change file - also binarys, etc.)
  - No single file versioning available. One is forced to use the latest updates.
 
+
+# Exercise 2
+
+## Describe a logging system with your own words:
+## What is the difference between git submodules and git subtrees?
+Git submodules are based on a specific commit. Subtrees include the history of the repository. Thereby submodules are smaller in size than subtrees.
+
+## What is a build system in C++? Name 3 build systems:
+A build system is used to generate executible files and/or project files for different platforms, e.g. Windows, Mac, Linux, etc.
+3 Build systems:
+ - CMake
+ - Make (GNU)
+ - PreMake
+
+## What is a package manager in C++? Name 3 package manager:
+A package manager acquires and manages libraries. It is used to maintain used libraries and dependencies so that it is not needed to do it manually.
+3 Package managers:
+ - vcpkg (Microsoft)
+ - conan
+ - build2 (build system & package manager)
+
