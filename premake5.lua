@@ -11,8 +11,8 @@ workspace "GameEngine_ai22m003"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
-project "GameEngine_ai22m003"
-	location "GameEngine_ai22m003"
+project "GEE"
+	location "GEE"
 	kind "SharedLib"
 	language "C++"
 
@@ -27,6 +27,7 @@ project "GameEngine_ai22m003"
 
 	includedirs 
 	{
+		"%{prj.name}/src",
 		"%{prj.name}/vendor/spdlog/include"
 	}
 
@@ -74,13 +75,13 @@ project "Ehms_Game"
 
 	includedirs 
 	{
-		"GameEngine_ai22m003/vendor/spdlog/include",
-		"GameEngine_ai22m003/src"
+		"GEE/vendor/spdlog/include",
+		"GEE/src"
 	}
 
 	links
 	{
-		"GameEngine_ai22m003"
+		"GEE"
 	}
 
 	filter "system:windows"

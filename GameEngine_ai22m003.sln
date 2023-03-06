@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ehms_Game", "Ehms_Game\Ehms_Game.vcxproj", "{AB4B122C-17B6-C6A2-60F4-7748CC9DA4F7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameEngine_ai22m003", "GameEngine_ai22m003\GameEngine_ai22m003.vcxproj", "{C2C356F9-2E25-3407-B792-7AB923F36AC6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GEE", "GEE\GEE.vcxproj", "{16EA870B-82F3-877C-0B6F-9E7C7777937C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,12 +18,12 @@ Global
 		{AB4B122C-17B6-C6A2-60F4-7748CC9DA4F7}.Dist|x64.Build.0 = Dist|x64
 		{AB4B122C-17B6-C6A2-60F4-7748CC9DA4F7}.Release|x64.ActiveCfg = Release|x64
 		{AB4B122C-17B6-C6A2-60F4-7748CC9DA4F7}.Release|x64.Build.0 = Release|x64
-		{C2C356F9-2E25-3407-B792-7AB923F36AC6}.Debug|x64.ActiveCfg = Debug|x64
-		{C2C356F9-2E25-3407-B792-7AB923F36AC6}.Debug|x64.Build.0 = Debug|x64
-		{C2C356F9-2E25-3407-B792-7AB923F36AC6}.Dist|x64.ActiveCfg = Dist|x64
-		{C2C356F9-2E25-3407-B792-7AB923F36AC6}.Dist|x64.Build.0 = Dist|x64
-		{C2C356F9-2E25-3407-B792-7AB923F36AC6}.Release|x64.ActiveCfg = Release|x64
-		{C2C356F9-2E25-3407-B792-7AB923F36AC6}.Release|x64.Build.0 = Release|x64
+		{16EA870B-82F3-877C-0B6F-9E7C7777937C}.Debug|x64.ActiveCfg = Debug|x64
+		{16EA870B-82F3-877C-0B6F-9E7C7777937C}.Debug|x64.Build.0 = Debug|x64
+		{16EA870B-82F3-877C-0B6F-9E7C7777937C}.Dist|x64.ActiveCfg = Dist|x64
+		{16EA870B-82F3-877C-0B6F-9E7C7777937C}.Dist|x64.Build.0 = Dist|x64
+		{16EA870B-82F3-877C-0B6F-9E7C7777937C}.Release|x64.ActiveCfg = Release|x64
+		{16EA870B-82F3-877C-0B6F-9E7C7777937C}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
