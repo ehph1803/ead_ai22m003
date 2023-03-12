@@ -34,6 +34,7 @@
     <ClInclude Include="src\GEE\Log.h">
       <Filter>GEE</Filter>
     </ClInclude>
+    <ClInclude Include="src\geepch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\GEE\Application.cpp">
@@ -42,5 +43,6 @@
     <ClCompile Include="src\GEE\Log.cpp">
       <Filter>GEE</Filter>
     </ClCompile>
+    <ClCompile Include="src\geepch.cpp" />
   </ItemGroup>
 </Project>

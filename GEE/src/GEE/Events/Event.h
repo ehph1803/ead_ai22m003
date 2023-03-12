@@ -1,9 +1,7 @@
 #pragma once
+#include "geepch.h"
 
 #include "GEE/Core.h"
-
-#include <string>
-#include <functional>
 
 namespace GEE {
 

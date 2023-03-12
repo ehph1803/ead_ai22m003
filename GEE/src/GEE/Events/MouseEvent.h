@@ -1,7 +1,7 @@
 #pragma once
+#include "geepch.h"
 
 #include "Event.h"
-#include <sstream>
 
 namespace GEE {
 	class GEE_API MouseMovedEvent : public Event {

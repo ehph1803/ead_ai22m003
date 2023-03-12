@@ -1,4 +1,6 @@
+#include "geepch.h"
 #include "Application.h"
+
 #include "GEE/Events/ApplicationEvent.h"
 #include "GEE/Log.h"
 

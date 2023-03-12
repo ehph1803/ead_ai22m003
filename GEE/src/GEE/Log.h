@@ -2,7 +2,6 @@
 #include "Core.h"
 #include "spdlog/spdlog.h"
 #include "spdlog/fmt/ostr.h"
-#include <memory>
 
 namespace GEE {
 	class GEE_API Log
