@@ -12,6 +12,8 @@
 #include <unordered_map>
 #include <unordered_set>
 
+#include "GEE/Log.h"
+
 #ifdef GEE_PLATFORM_WINDOWS
 	#include <Windows.h>
 #endif

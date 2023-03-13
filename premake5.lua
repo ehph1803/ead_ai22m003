@@ -11,6 +11,12 @@ workspace "GameEngine_ai22m003"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
+-- Include directories relative to root folder (solution directory)
+IncludeDir = {}
+IncludeDir["GLFW"] = "GEE/vendor/GLFW/include"
+
+include "GEE/vendor/GLFW"
+
 project "GEE"
 	location "GEE"
 	kind "SharedLib"
@@ -31,7 +37,14 @@ project "GEE"
 	includedirs 
 	{
 		"%{prj.name}/src",
-		"%{prj.name}/vendor/spdlog/include"
+		"%{prj.name}/vendor/spdlog/include",
+		"%{IncludeDir.GLFW}"
+	}
+
+	links
+	{
+		"GLFW",
+		"opengl32.lib"
 	}
 
 	filter "system:windows"

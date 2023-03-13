@@ -35,6 +35,10 @@
       <Filter>GEE</Filter>
     </ClInclude>
     <ClInclude Include="src\geepch.h" />
+    <ClInclude Include="src\GEE\Window.h">
+      <Filter>GEE</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\GEE\Application.cpp">
@@ -44,5 +48,6 @@
       <Filter>GEE</Filter>
     </ClCompile>
     <ClCompile Include="src\geepch.cpp" />
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp" />
   </ItemGroup>
 </Project>
