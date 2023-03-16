@@ -1,5 +1,5 @@
-[submodule "GameEngine_ai22m003/vendor/spdlog"]
-	path = GameEngine_ai22m003/vendor/spdlog
+[submodule "GEE/vendor/spdlog"]
+	path = GEE/vendor/spdlog
 	url = https://github.com/gabime/spdlog
 [submodule "GEE/vendor/GLFW"]
 	path = GEE/vendor/GLFW
